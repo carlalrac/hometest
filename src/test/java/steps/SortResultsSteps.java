@@ -1,16 +1,12 @@
 package steps;
 
-import cucumber.api.PendingException;
-import cucumber.api.java.en.Given;
+
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 import pages.SearchTools.EbaySortBy;
 
 import org.openqa.selenium.WebDriver;
-import static org.junit.Assert.assertEquals;
+
 public class SortResultsSteps {
     private  WebDriver driver;
     EbaySortBy sortBy;
