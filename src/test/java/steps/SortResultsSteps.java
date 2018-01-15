@@ -3,13 +3,12 @@ package steps;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import helpers.Hooks;
 import pages.SearchTools.EbaySortBy;
 
 import org.openqa.selenium.WebDriver;
 
 public class SortResultsSteps {
-    private  WebDriver driver;
+    public  WebDriver driver;
     EbaySortBy sortBy;
 
     public SortResultsSteps() {

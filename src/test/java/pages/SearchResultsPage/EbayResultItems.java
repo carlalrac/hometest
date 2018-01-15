@@ -21,5 +21,7 @@ public class EbayResultItems extends EbayBasePage {
     public WebElement ResultItem(String itemNumber) {
        return driver.findElement(By.xpath("//ul[@id='ListViewInner']/li[@r='"+ itemNumber + "']"));
     }
+
+
 }
 

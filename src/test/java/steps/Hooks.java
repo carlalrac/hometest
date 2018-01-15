@@ -1,4 +1,4 @@
-package helpers;
+package steps;
 
 import org.openqa.selenium.WebDriver;
 import cucumber.api.java.After;
@@ -11,7 +11,7 @@ public class Hooks {
 
     @Before
     public void startUp()  {
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
     }

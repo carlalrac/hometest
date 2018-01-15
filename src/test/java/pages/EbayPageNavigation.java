@@ -1,11 +1,15 @@
 package pages;
 
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.FluentWait;
 import pages.EbayBasePage;
+
+import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
@@ -21,6 +25,7 @@ public class EbayPageNavigation extends EbayBasePage {
     private static WebElement guestUser;
     @FindBy(how=How.TAG_NAME, using="head")
     private static WebElement header;
+
 
     // Get the title of the page
     public String getPageHeadertitle() {
