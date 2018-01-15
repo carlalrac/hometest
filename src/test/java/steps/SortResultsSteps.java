@@ -3,6 +3,7 @@ package steps;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import helpers.Hooks;
 import pages.SearchTools.EbaySortBy;
 
 import org.openqa.selenium.WebDriver;

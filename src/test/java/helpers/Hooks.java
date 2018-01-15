@@ -1,4 +1,4 @@
-package steps;
+package helpers;
 
 import org.openqa.selenium.WebDriver;
 import cucumber.api.java.After;

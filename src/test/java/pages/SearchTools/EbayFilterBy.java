@@ -8,7 +8,6 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import pages.EbayBasePage;
 
-import java.util.concurrent.ExecutionException;
 
 public class EbayFilterBy extends EbayBasePage {
     public EbayFilterBy(WebDriver driver) {

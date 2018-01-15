@@ -3,9 +3,10 @@ package steps;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import helpers.Hooks;
 import pages.SearchTools.EbaySearchbar;
 import pages.SearchResultsPage.EbayResultItems;
-import helpers.EbayPageNavigation;
+import pages.EbayPageNavigation;
 import org.openqa.selenium.WebDriver;
 import static org.junit.Assert.assertEquals;
 

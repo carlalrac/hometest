@@ -2,7 +2,7 @@ package steps;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import helpers.EbayPageNavigation;
+import helpers.Hooks;
 import org.openqa.selenium.WebDriver;
 import pages.SearchResultsPage.EbayResultItems;
 import pages.SearchTools.EbayFilterBy;
